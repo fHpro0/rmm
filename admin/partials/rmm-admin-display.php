@@ -135,7 +135,7 @@
                 <h1 class="text-2xl font-semibold leading-6 text-gray-900">Remote Metadata Modifier</h1>
                 <p class="mt-4 text-sm text-gray-700">A list of all the remote metadata urls, that should be removed.</p>
                 <?php if (count($availableUrls) == 0) : ?>
-                    <span class="inline-flex items-center gap-x-1.5 rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-yellow-800">
+                    <span class="inline-flex mt-2 items-center gap-x-1.5 rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-yellow-800">
                         <svg class="h-6 w-6 fill-yellow-500" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 12C19.5 16.1421 16.1421 19.5 12 19.5C7.85786 19.5 4.5 16.1421 4.5 12C4.5 7.85786 7.85786 4.5 12 4.5C16.1421 4.5 19.5 7.85786 19.5 12ZM21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12ZM11.25 13.5V8.25H12.75V13.5H11.25ZM11.25 15.75V14.25H12.75V15.75H11.25Z" />
                         </svg>
@@ -209,6 +209,18 @@
             </div>
             <div class="sm:ml-16 sm:mt-0 sm:flex-none">
                 <a href="?page=rmm-options&update" class="block rounded-md bg-blue-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 hover:cursor-pointer">Update Metadata Content now</a>
+            </div>
+        </div>
+        <div class="sm:flex sm:items-center mt-10">
+            <div class="sm:flex-auto">
+                <h1 class="text-2xl mb-4 font-semibold leading-6 text-gray-600">
+                    Loving this Plugin?<br>You can leave me a tip, for some new projects ^^
+                </h1>
+            </div>
+            <div class="sm:ml-16 sm:mt-0 flex gap-3">
+                <a href="https://www.buymeacoffee.com/fhpro0"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="140" alt="fhpro0" /> </a>
+                <a href="https://ko-fi.com/fhpro0"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" width="140" alt="fhpro0" /> </a>
+                <a href="https://www.paypal.com/donate/?hosted_button_id=GAHA87CHTKD22"> <img align="left" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" width="110" alt="fhpro0" /> </a>
             </div>
         </div>
     </div>
